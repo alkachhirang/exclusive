@@ -27,7 +27,7 @@ function MasRazones() {
                     </Col>
                     <Col lg={6} className='col-11 pt-4 pt-lg-0' data-aos="fade-left">
                         <h3 className='text-white fs_48 ff_anton fw-normal pb-xl-5 pb-4 m-0 text-lg-start text-center'>Más razones para elegirnos</h3>
-                        <div className="razon_box curser_pointer mw_374">
+                        <div className="razon_box cursor_pointer mw_374">
                             <div className="razon_content d-flex">
                                 <Light />
                                 <div>
@@ -40,7 +40,7 @@ function MasRazones() {
                                 </div>
                             </div>
                         </div>
-                        <div className="razon_box curser_pointer mw_374">
+                        <div className="razon_box cursor_pointer mw_374">
                             <div className="razon_content d-flex">
                                 <Clients />
                                 <div>
@@ -53,7 +53,7 @@ function MasRazones() {
                                 </div>
                             </div>
                         </div>
-                        <div className="razon_box curser_pointer mw_374">
+                        <div className="razon_box cursor_pointer mw_374">
                             <div className="razon_content d-flex">
                                 <Divisas />
                                 <div>
