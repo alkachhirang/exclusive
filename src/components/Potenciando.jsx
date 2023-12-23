@@ -45,7 +45,7 @@ function Potenciando() {
 
                     </Col>
                     <div className='py_150'>
-                        <div className='jakpot_box py_96 py_65 mt-5 mt-lg-0 position-relative jackpot_wave'>
+                        <div className='jakpot_box mw_1043 py_96 py_65 mt-5 mt-lg-0 position-relative jackpot_wave'>
                             <img src={Jackpotwave1} alt="Jackpotwave1" className='position-absolute start-0 top-0 position-relative z-2 jackpot_wave' />
                             <img src={Jackpotwave2} alt="Jackpotwave2" className='position-absolute end-0 bottom-0 position-relative z-2 jackpot_wave' />
                             <div className='d-flex justify-content-center align-items-center'>

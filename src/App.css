@@ -870,6 +870,10 @@ body {
         padding-top: 250px;
         padding-bottom: 110px;
     }
+
+    .mw_1043 {
+        max-width: 1043px;
+    }
 }
 
 @media (min-width:1200px) {
