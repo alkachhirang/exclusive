@@ -45,9 +45,9 @@ function Header() {
                     <div className='d-flex justify-content-center align-items-center flex-column'>
                         <h2 className='text-white text-capitalize fs_72 fw-normal mw_505 ff_anton m-0 text-center' data-aos="fade-down">Exclusive Games. Pasión por ganar</h2>
                         <p className='text-white ff_inter fw-medium fs_16 mw_727 text-center mb-0 pt-2 pb-3' data-aos="fade-down">En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
-                        <div className='pt-4 position-relative z-1 cursor_pointer' data-aos="fade-down">
+                        <div className='mt-4 position-relative btn_common tr_linear cursor_pointer'>
                             <a href='' className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap '>Empezar</a>
-                            <img src={Buttonline} alt="Buttonline" className='position-absolute left_4 bottom_34' />
+                            <img src={Buttonline} alt="Buttonline" className='position-absolute left_4 bottom_72' />
                         </div>
                     </div>
                 </Container>

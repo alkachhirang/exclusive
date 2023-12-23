@@ -145,7 +145,7 @@ function MasRazones() {
                                     <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Tiempo de creación 2 a 3 semanas</p>
                                 </div>
                             </div>
-                            <div className='mt-4 position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                            <div className='mt-4 position-relative cursor_pointer btn_common tr_linear d-inline-flex justify-content-center align-items-center'>
                                 <button className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap border-0'>Comprar ahora</button>
                                 <img src={Buttonline} alt="Buttonline" className='position-absolute left_3 bottom_13' />
                             </div>

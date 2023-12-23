@@ -13,7 +13,7 @@ function Lanza() {
                     <img src={Lanzoleft} alt="Lanzoleft" className='position-absolute start-0 bottom-0 border_radius_16 jackpot_wave d-none d-md-block' />
                     <div className='d-flex justify-content-center align-items-center flex-column py_lanzo'>
                         <h4 className='ff_anton fs_32 text-white fw-normal text-center' data-aos="fade-down">Lanza tu propia plataforma en sólo 2 semanas</h4>
-                        <div className='mt-4 position-relative cursor_pointer d-inline-flex justify-content-center align-items-center' data-aos="fade-down">
+                        <div className='mt-4 position-relative cursor_pointer btn_common tr_linear d-inline-flex justify-content-center align-items-center'>
                             <button className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap border-0'>Mostrar más</button>
                             <img src={Buttonline} alt="Buttonline" className='position-absolute left_3 bottom_13' />
                         </div>

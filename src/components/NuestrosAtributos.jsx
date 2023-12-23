@@ -119,7 +119,7 @@ function NuestrosAtributos() {
                         </div>
                     </Col>
                 </Row>
-                <div className='mt-4 position-relative cursor_pointer d-inline-flex justify-content-center align-items-center'>
+                <div className='mt-4 position-relative cursor_pointer d-inline-flex btn_common tr_linear justify-content-center align-items-center'>
                     <button className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap border-0'>Mostrar más</button>
                     <img src={Buttonline} alt="Buttonline" className='position-absolute left_3 bottom_13' />
                 </div>

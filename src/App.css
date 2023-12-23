@@ -97,8 +97,19 @@ body {
     padding: 13px 46px;
     border-radius: 41px;
     background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
-    transition: all 300s linear !important;
-    /* box-shadow: 0px 4px 25px 0px #ffffff !important; */
+}
+
+.tr_linear {
+    transition: all .3s linear;
+}
+
+.btn_common:hover {
+    box-shadow: 0px 0px 20px 2px rgba(122, 245, 122, 0.608) !important;
+    border-radius: 41px;
+}
+
+.bottom_72 {
+    bottom: -72%;
 }
 
 .silvershadow_img {
@@ -212,12 +223,13 @@ body {
     left: 0;
     right: 0;
     border-radius: 8px;
-    background: none;
+    opacity: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.72) 100%);
     transition: all 300ms linear !important;
 }
 
 .card_hover:hover .black_layer::after {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.72) 100%);
+    opacity: 1;
     transition: all 300ms linear !important;
 }
 
@@ -601,7 +613,8 @@ body {
 .mw_100 {
     max-width: 100px;
 }
-.mw_650{
+
+.mw_650 {
     max-width: 650px;
 }
 
