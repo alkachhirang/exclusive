@@ -77,7 +77,7 @@ function MasRazones() {
                     <Row className='align-items-center justify-content-center'>
                         <Col xl={6} className='col-11 d-flex justify-content-center position-relative' data-aos="fade-right">
                             <img src={Silvercircle} alt="Silvercircle" className='position-relative z-2 w-100' />
-                            <img src={ Silvershadow }alt="ShadowImg"className=" position-absolute mw_650 mt-4 silvershadow_img d-xxl-block d-none"
+                            <img src={ Silvershadow }alt="ShadowImg"className=" position-absolute mw_650 mt-4 silvershadow_img  d-none"
                             />
                         </Col>
                         <Col xl={6} className='col-11 d-flex justify-content-center pt-4 pt-xl-0' data-aos="fade-left">
