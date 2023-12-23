@@ -17,7 +17,7 @@ function Elegirnos() {
                         </div>
                     </Col>
                     <Col lg={6} className='d-flex justify-content-end col-11 pt-4 pt-md-5 pt-lg-0' data-aos="fade-left">
-                        <img src={Casino} alt="Casino" className='border_radius_16 w-100 mw_558' />
+                        <img src={Casino} alt="Casino" className='border_radius_16 w-100 mw_558 img_hov1 cursor_pointer' />
                     </Col>
                 </Row>
             </Container>

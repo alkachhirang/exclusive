@@ -16,7 +16,7 @@ function Potenciando() {
             <Container id='Ofertas' className='pt_5 mt-5 pb-5 mb-md-5 mb-lg-0'>
                 <Row className='align-items-center justify-content-center'>
                     <Col lg={6} sm={12} className='col-11' data-aos="fade-up-right">
-                        <img src={Potenciandoimg} alt="Potenciandoimg" className='border_radius_16 w-100 mw_558' />
+                        <img src={Potenciandoimg} alt="Potenciandoimg" className='border_radius_16 w-100 mw_558 img_hov cursor_pointer' />
                     </Col>
                     <Col lg={6} sm={12} className='col-11 pt-4 pt-lg-0 mb-4 mb-lg-0' data-aos="fade-up-left">
                         <h3 className='ff_anton text-white fw-normal fs_48 m-0'>Potenciando sus elecciones</h3>

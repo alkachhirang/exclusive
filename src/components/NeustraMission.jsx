@@ -15,7 +15,7 @@ function NeustraMission() {
                     <Row className='align-items-center justify-content-center py-5'>
                         <Col lg={6} sm={12} className='col-11 position-relative z-2' data-aos="fade-right">
                             <div>
-                                <img src={Pokerimg} alt="Pokerimg" className='w-100 mw_538' />
+                                <img src={Pokerimg} alt="Pokerimg" className='w-100 mw_538 img_hov cursor_pointer' />
                             </div>
                             <h3 className='ff_anton fs_48 fw-normal text-white m-0 pt-4 pt-md-5 mt-md-2'>Nuestra Misión</h3>
                             <p className='ff_inter text-white fw-medium fs_16 mw_444 m-0 pt-3'>Nuestra misión es simple pero poderosa: proporcionarte la más amplia gama de soluciones de entretenimiento de alta calidad y rentabilidad. Estamos comprometidos a elevar tus expectativas y brindarte experiencias inigualables.</p>
@@ -31,7 +31,7 @@ function NeustraMission() {
                                     <Aprende />
                                 </div>
                                 <div className='pt-md-5 pt-4 mt-md-2'>
-                                    <img src={Aviator} alt="Aviator" className='w-100 mw_538' />
+                                    <img src={Aviator} alt="Aviator" className='w-100 mw_538 img_hov cursor_pointer' />
                                 </div>
                             </div>
                         </Col>

@@ -23,7 +23,7 @@ function MasRazones() {
                 <div className='jackpot_circle1 common_circle'></div>
                 <Row className=''>
                     <Col lg={6} className='col-11' data-aos="fade-right">
-                        <img src={Sevenimg} alt="Sevenimg" className='border_radius_16 w-100 mw_558 h-100 object-fit-cover' />
+                        <img src={Sevenimg} alt="Sevenimg" className='border_radius_16 w-100 mw_558 h-100 object-fit-cover img_hov1 cursor_pointer' />
                     </Col>
                     <Col lg={6} className='col-11 pt-4 pt-lg-0' data-aos="fade-left">
                         <h3 className='text-white fs_48 ff_anton fw-normal pb-xl-5 pb-4 m-0 text-lg-start text-center'>Más razones para elegirnos</h3>
@@ -77,7 +77,7 @@ function MasRazones() {
                     <Row className='align-items-center justify-content-center'>
                         <Col xl={6} className='col-11 d-flex justify-content-center position-relative' data-aos="fade-right">
                             <img src={Silvercircle} alt="Silvercircle" className='position-relative z-2 w-100' />
-                            <img src={ Silvershadow }alt="ShadowImg"className=" position-absolute mw_650 mt-4 silvershadow_img  d-none"
+                            <img src={Silvershadow} alt="ShadowImg" className=" position-absolute mw_650 mt-4 silvershadow_img  d-none"
                             />
                         </Col>
                         <Col xl={6} className='col-11 d-flex justify-content-center pt-4 pt-xl-0' data-aos="fade-left">
@@ -124,25 +124,29 @@ function MasRazones() {
                             <p className='ff_inter fs_16 fw-medium text-white mw_401 m-0 pb-4 opacity_8 text-center'>lleva tu experiencia de juego al siguiente nivel. Con todas las características de la versión Silver y la potencia adicional de la tecnología React .</p>
                             <h3 className='ff_anton fs_48 fw-normal text-white m-0 pt-2 pb-3'>$9000</h3>
                             <div>
-                                <div className='d-flex align-items-center gap-2 pb-2'>
+                                <div className='d-flex gap-2 pb-2'>
                                     <Greentick />
-                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales</p>
+                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8 text-center'>Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales</p>
                                 </div>
-                                <div className='d-flex align-items-center gap-2 pb-2 pt-1'>
+                                <div className='d-flex gap-2 pb-2 pt-1'>
                                     <Greentick />
-                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Control de RTP (controlás qué porcentaje pagar)</p>
+                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8 text-center'>Control de RTP (controlás qué porcentaje pagar)</p>
                                 </div>
-                                <div className='d-flex align-items-center gap-2 pb-2 pt-1'>
+                                <div className='d-flex gap-2 pb-2 pt-1'>
                                     <Greentick />
-                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo</p>
+                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8 text-center'>Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo</p>
                                 </div>
-                                <div className='d-flex align-items-center gap-2 pb-2 pt-1'>
+                                <div className='d-flex gap-2 pb-2 pt-1'>
                                     <Greentick />
-                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Aplicación para Android y Windows de regalo.</p>
+                                    <div className='mw_387 w-100 d-flex justify-content-center'>
+                                        <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8 text-center'>Aplicación para Android y Windows de regalo.</p>
+                                    </div>
                                 </div>
-                                <div className='d-flex align-items-center gap-2 pt-1'>
+                                <div className='d-flex gap-2 pt-1'>
                                     <Greentick />
-                                    <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8'>Tiempo de creación 2 a 3 semanas</p>
+                                    <div className=' mw_374 w-100 d-flex justify-content-center'>
+                                        <p className='ff_inter fs_16 fw-medium text-white m-0 mw_387 opacity_8 text-center'>Tiempo de creación 2 a 3 semanas</p>
+                                    </div>
                                 </div>
                             </div>
                             <div className='mt-4 position-relative cursor_pointer btn_common tr_linear d-inline-flex justify-content-center align-items-center'>
