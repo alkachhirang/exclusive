@@ -436,7 +436,6 @@ body {
 
 /*----------------------------accordian-------------------- */
 .accordion-item {
-    /* color: #FFF03F; */
     background-color: transparent !important;
 }
 
@@ -586,7 +585,6 @@ body {
     --fs-xl: 48px;
     --fs-xxl: 72px;
 }
-
 
 /*--------------------------font-size----------------------- */
 
@@ -794,7 +792,6 @@ body {
 
 @media (max-width:576px) {
     :root {
-        /* font-size */
         --fs-6sm: 13px;
         --fs-md: 20px;
         --fs-lg: 26px;
@@ -812,7 +809,6 @@ body {
 
 @media (min-width:576px) and (max-width:768px) {
     :root {
-        /* font-size */
         --fs-6sm: 16px;
         --fs-md: 16px;
         --fs-lg: 32px;
@@ -828,7 +824,6 @@ body {
 
 @media (min-width:768px) and (max-width:992px) {
     :root {
-        /* font-size */
         --fs-6sm: 16px;
         --fs-md: 20px;
         --fs-lg: 32px;
@@ -848,7 +843,6 @@ body {
 
 @media (min-width:992px) and (max-width:1200px) {
     :root {
-        /* font-size */
         --fs-xl: 40px;
         --fs-xxl: 72px;
     }
