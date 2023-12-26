@@ -18,7 +18,7 @@ import Cardbtn from '../assets/images/png/Nav-btn-line.png';
 function NuestrosAtributos() {
     return (
         <div className='atributos_bg_img position-relative z-2 '>
-            <Container className='pt_200 pt_70 pt_45'>
+            <Container className='pt_200 custom_container pt_70 pt_45'>
                 <h3 className='text-black fs_48 text-capitalize ff_anton fw-normal text-center pb-3' data-aos="fade-down">Nuestros Atributos de Marca</h3>
                 <Row className='gap-md-0 gap-sm-5 gap-4 justify-content-lg-between justify-content-center pt-5 position-relative'>
                     <img src={Arrow1} alt="Arrow1" className='position-absolute arrow1 w-100 mw_274 mw_215 d-none d-md-block' />
@@ -46,12 +46,12 @@ function NuestrosAtributos() {
                     </Col>
                 </Row>
             </Container>
-            <Container id='Tragamonedas' className='py_slot d-flex flex-column align-items-center'>
-                <div className='d-flex justify-content-center align-items-center flex-column pb-3'>
+            <Container id='Tragamonedas' className='py_slot custom_container d-flex flex-column align-items-center'>
+                <div className='d-flex justify-content-center align-items-center flex-column pb-1'>
                     <h3 className='ff_anton text-black fw-normal fs_48 text-center' data-aos="flip-down">Slots</h3>
                     <p className='text-black ff_inter fw-medium fs_16 text-center mw_904' data-aos="flip-down">En Exclusive Games, ofrecemos una selección de más de 600 juegos de los principales desarrolladores, como Aristocrat, Amatic, EGT, Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja incansablemente para innovar y ampliar nuestra oferta de experiencias, garantizando la máxima seguridad con operaciones protegidas por cifrado SSL de 256 bits.</p>
                 </div>
-                <Row className='pt-lg-5 pt-2 justify-content-center align-items-center'>
+                <Row className='pt-lg-5 pt-2 pb-lg-3 justify-content-center align-items-center'>
                     <Col lg={4} sm={6} className='col-11 position-relative card_hover' data-aos="zoom-in-up">
                         <div className='position-relative black_layer '>
                             <img src={Slotimg1} alt="Slotimg1" className='border_radius_8 w-100' />

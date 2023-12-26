@@ -35,7 +35,7 @@ function Footer() {
                         <div className='d-flex flex-wrap pt-4 pt-lg-0'>
                             <Col lg={4} sm={6} className='col-6'>
                                 <ul className='p-0'>
-                                    <li><a href='' className='ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>Menú principal</a></li>
+                                    <li className='ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>'Menú principal</li>
                                     <li><a href='#hogar' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 d-inline-block nav_link position-relative'>Hogar</a></li>
                                     <li><a href='#Misión' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>Misión</a></li>
                                     <li><a href='#Tragamonedas' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>Tragamonedas</a></li>
@@ -45,7 +45,7 @@ function Footer() {
                             </Col>
                             <Col lg={4} sm={6} className='col-6'>
                                 <ul className='p-0'>
-                                    <li><a href='' className='ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>Atención al cliente</a></li>
+                                    <li className=' ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>Atención al cliente</li>
                                     <li><a href='' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 d-inline-block nav_link position-relative'>¿Necesitas ayuda?</a></li>
                                     <li><a href='' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>política de privacidad</a></li>
                                     <li><a href='' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>Términos de servicios</a></li>
@@ -53,15 +53,15 @@ function Footer() {
                             </Col>
                             <Col lg={4} className='col-11'>
                                 <ul className='p-0'>
-                                    <li><a href='' className='ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>Ponerse en contacto</a></li>
+                                    <li className='ff_inter fw-bold fs_16 text-white pb-3 d-inline-block'>Ponerse en contacto</li>
 
                                     <li className='d-flex align-items-center gap-2'>
                                         <img src={Msgbox} alt="Msgbox" className='' />
-                                        <a href='' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 d-inline-block nav_link position-relative'>juegosexclusivos@gmail.com</a>
+                                        <a href='https://accounts.google.com/servicelogin?hl=en-gb' target='blank' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 d-inline-block nav_link position-relative'>juegosexclusivos@gmail.com</a>
                                     </li>
                                     <li className='d-flex align-items-center gap-2'>
                                         <Teliphn />
-                                        <a href='' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>(101)342-7873</a>
+                                        <a href='tel:1234567890' onClick={() => setshow(!show)} className='ff_inter fw-medium fs_16 text-white opacity_8 mb-2 pt-1 d-inline-block nav_link position-relative'>(101)342-7873</a>
                                     </li>
                                 </ul>
                             </Col>

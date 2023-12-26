@@ -7,7 +7,7 @@ import Lanzoleft from '../assets/images/png/lanza-left-img.png';
 function Lanza() {
     return (
         <div className='pb-lg-5'>
-            <Container className='pb-5 mb-md-5'>
+            <Container className='pb-5 mb-md-5 custom_container'>
                 <div className='lanza_box position-relative jackpot_wave'>
                     <img src={Lanzoright} alt="Lanzoright" className='position-absolute end-0 bottom-0 border_radius_16 jackpot_wave d-none d-md-block' />
                     <img src={Lanzoleft} alt="Lanzoleft" className='position-absolute start-0 bottom-0 border_radius_16 jackpot_wave d-none d-md-block' />

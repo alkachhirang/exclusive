@@ -23,11 +23,11 @@ function MasRazones() {
                 <div className='jackpot_circle1 common_circle'></div>
                 <Row className=''>
                     <Col lg={6} className='col-11' data-aos="fade-right">
-                        <img src={Sevenimg} alt="Sevenimg" className='border_radius_16 w-100 mw_558 h-100 object-fit-cover img_hov1 cursor_pointer' />
+                        <img src={Sevenimg} alt="Sevenimg" className='border_radius_16 w-100 h-100 object-fit-cover' />
                     </Col>
-                    <Col lg={6} className='col-11 pt-4 pt-lg-0' data-aos="fade-left">
+                    <Col lg={6} className='col-11 pt-4 pt-lg-0 ps-5' data-aos="fade-left">
                         <h3 className='text-white fs_48 ff_anton fw-normal pb-xl-5 pb-4 m-0 text-lg-start text-center'>Más razones para elegirnos</h3>
-                        <div className="razon_box cursor_pointer mw_374">
+                        <div className="razon_box cursor_pointer mw_374 mt-2">
                             <div className="razon_content d-flex">
                                 <Light />
                                 <div>
@@ -72,7 +72,7 @@ function MasRazones() {
             <Container className='pt-5 pb-5'>
                 <h3 className='text-white ff_anton fw-normal fs_48 text-center m-0 pb-3' data-aos="fade-down">Nuestras ofertas</h3>
                 <p className='ff_inter text-white text-center fs_16 fw-medium m-0 pb-5' data-aos="fade-down">Te ofrecemos las mejores experiencias de juegos para tus clientes.</p>
-                <div className='silver_box py-5 px-md-5 px-3  position-relative '>
+                <div className='silver_box py-5 px-md-5 px-3 mt-lg-3  position-relative '>
                     <div className='razon_circle d-none d-xl-block'></div>
                     <Row className='align-items-center justify-content-center'>
                         <Col xl={6} className='col-11 d-flex justify-content-center position-relative' data-aos="fade-right">

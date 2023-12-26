@@ -15,14 +15,13 @@ function Header() {
     return (
         <div className='bg_body'>
             <div className='Hero_bg_img min_vh_90'>
-                <nav className='bg_nav py-4 position-relative z_5'>
-                    <Container>
+                <nav className='bg_nav py-4 position-relative top-0 z_5'>
+                    <Container className='custom_container'>
                         <div className='d-flex justify-content-between align-items-center'>
                             <a href=''>
                                 <img src={Navlogo} alt="Navlogo" className='w-100 mw_210 h-100' />
                             </a>
-
-                            <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
+                            <ul className={`${show ? "left_100" : "left_0"} nav_bar ps-0`}>
                                 <li className='position-relative'><a href='#hogar' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_inter nav_link'>Hogar</a></li>
                                 <li className='position-relative'><a href='#Misión' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_inter nav_link'>Misión</a></li>
                                 <li className='position-relative'><a href='#Tragamonedas' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_inter nav_link'>Tragamonedas</a></li>
@@ -30,7 +29,7 @@ function Header() {
                                 <li className='position-relative'><a href='#Ofertas' onClick={() => setshow(!show)} className='text-white fs_16 fw-medium ff_inter nav_link'>Ofertas</a></li>
                             </ul>
                             <div className='position-relative d-none d-xl-block z-1 cursor_pointer'>
-                                <a href='' className='nav_btn text-white ff_inter fs_16 fw-bold text-nowrap '>Acceso</a>
+                                <a href='' className='nav_btn lh_160 text-white ff_inter fs_16 fw-bold text-nowrap '>Acceso</a>
                                 <img src={NavbtnLine} alt="NavbtnLine" className='position-absolute left_4 bottom_87' />
                             </div>
                             <div onClick={() => setshow(!show)} className={`${show ? "" : "cross"} navline`}>
@@ -41,17 +40,16 @@ function Header() {
                         </div>
                     </Container>
                 </nav>
-                <Container id='hogar' className='py_header'>
+                <Container id='hogar' className='py_header custom_container flex-grow-1 d-flex flex-column align-items-center justify-content-center'>
                     <div className='d-flex justify-content-center align-items-center flex-column'>
-                        <h2 className='text-white text-capitalize fs_72 fw-normal mw_505 ff_anton m-0 text-center' data-aos="fade-down">Exclusive Games. Pasión por ganar</h2>
+                        <h2 className='text-white fs_72 fw-normal mw_505 ff_anton m-0 text-center text-uppercase pb-2' data-aos="fade-down">Exclusive Games. Pasión por ganar</h2>
                         <p className='text-white ff_inter fw-medium fs_16 mw_727 text-center mb-0 pt-2 pb-3' data-aos="fade-down">En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
                         <div className='mt-4 position-relative btn_common tr_linear cursor_pointer'>
-                            <a href='' className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap '>Empezar</a>
+                            <a href='' className='comman_btn text-black ff_inter fs_16 fw-bold text-nowrap'>Empezar</a>
                             <img src={Buttonline} alt="Buttonline" className='position-absolute left_4 bottom_72' />
                         </div>
                     </div>
                 </Container>
-
             </div>
         </div>
     )

@@ -49,11 +49,15 @@ body {
 }
 
 .nav_btn {
-    padding: 13px 46px;
+    padding: 15px 46px;
     border-radius: 41px;
     border: 1px solid var(--white, #FFF);
     background-color: transparent;
     transition: all 300ms linear !important;
+}
+
+.lh_160 {
+    line-height: 160%;
 }
 
 .nav_btn:hover {
@@ -72,7 +76,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 0;
-    margin-left: 0;
+    padding-left: 0;
     list-style: none;
     gap: 30px;
     z-index: 4 !important;
@@ -107,7 +111,7 @@ body {
 }
 
 .comman_btn {
-    padding: 13px 46px;
+    padding: 15px 46px;
     border-radius: 41px;
     background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
 }
@@ -178,6 +182,14 @@ body {
     position: absolute;
     right: 0;
     bottom: -28%;
+}
+
+.neutra_circle4 {
+    width: 384px;
+    height: 384px;
+    position: absolute;
+    right: -22%;
+    bottom: -33%;
 }
 
 .border_radius_16 {
@@ -408,6 +420,7 @@ body {
     bottom: -340%;
 }
 
+
 .ellos_circle1 {
     width: 484px;
     height: 484px;
@@ -634,6 +647,10 @@ body {
         max-width: 505px;
     }
 
+    .mw_55 {
+        max-width: 55px;
+    }
+
     .mw_369 {
         max-width: 369px;
     }
@@ -685,13 +702,13 @@ body {
     }
 
     .py_slot {
-        padding-top: 100px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 250px;
     }
 
     .py_elegirnos {
-        padding-top: 200px;
-        padding-bottom: 170px;
+        padding-top: 300px;
+        padding-bottom: 270px;
     }
 
     .pt_200 {
@@ -753,7 +770,7 @@ body {
     }
 
     .overflow_hidden {
-        overflow: hidden !important;
+        overflow-y: hidden !important;
     }
 
     .navline {
@@ -887,5 +904,9 @@ body {
 
     .mw_387 {
         max-width: 387px;
+    }
+
+    .custom_container {
+        max-width: 1170px !important;
     }
 }

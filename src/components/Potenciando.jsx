@@ -13,7 +13,7 @@ function Potenciando() {
         <div className='jackpot_bg_img pb-5 position-relative'>
             <div className='jackpot_circle1 common_circle'></div>
             <div className='jackpot_circle2 common_circle'></div>
-            <Container id='Ofertas' className='pt_5 mt-5 pb-5 mb-md-5 mb-lg-0'>
+            <Container id='Ofertas' className='custom_container pt_5 mt-5 pb-5 mb-md-5 mb-lg-0'>
                 <Row className='align-items-center justify-content-center'>
                     <Col lg={6} sm={12} className='col-11' data-aos="fade-up-right">
                         <img src={Potenciandoimg} alt="Potenciandoimg" className='border_radius_16 w-100 mw_558 img_hov cursor_pointer' />
@@ -45,17 +45,19 @@ function Potenciando() {
 
                     </Col>
                     <div className='py_150'>
-                        <div className='jakpot_box mw_1043 py_96 py_65 mt-5 mt-lg-0 position-relative jackpot_wave'>
-                            <img src={Jackpotwave1} alt="Jackpotwave1" className='position-absolute start-0 top-0 position-relative z-2 jackpot_wave' />
-                            <img src={Jackpotwave2} alt="Jackpotwave2" className='position-absolute end-0 bottom-0 position-relative z-2 jackpot_wave' />
-                            <div className='d-flex justify-content-center align-items-center'>
-                                <p className='text-white mw_520 ff_anton fw-normal fs_48 text-center' data-aos="fade-down">lanza tu propia plataforma en sólo 2 semanas</p>
+                        <div className='w-100 d-flex flex-column justify-content-center align-items-center'>
+                            <div className='jakpot_box w-100 mw_1043 py_96 py_65 mt-5 mt-lg-0 position-relative jackpot_wave'>
+                                <img src={Jackpotwave1} alt="Jackpotwave1" className='position-absolute start-0 top-0 position-relative z-2 jackpot_wave' />
+                                <img src={Jackpotwave2} alt="Jackpotwave2" className='position-absolute end-0 bottom-0 position-relative z-2 jackpot_wave' />
+                                <div className='d-flex justify-content-center align-items-center'>
+                                    <p className='text-white mw_520 ff_anton fw-normal fs_48 text-center lh_160' data-aos="fade-down">lanza tu propia plataforma en sólo 2 semanas</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </Row>
             </Container>
-            <Container  className='pb-md-5'>
+            <Container className='pb-md-5 custom_container'>
                 <h3 className='text-white ff_anton fs_48 fw-normal text-center pb-md-5 pb-4'>Juegos en vivo</h3>
                 <Row className='pt-2 justify-content-center align-items-center'>
                     <Col lg={4} sm={6} className='col-11 position-relative card_hover' data-aos="zoom-in">

@@ -68,7 +68,7 @@ function App() {
               <Footer />
             </div>
             <div>
-              <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top z_7 mw_45" : "d-none"} />
+              <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top z_7 mw_45 mw_55" : "d-none"} />
             </div>
           </>
         </BrowserRouter>
