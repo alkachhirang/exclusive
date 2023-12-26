@@ -61,7 +61,7 @@ body {
 }
 
 .nav_btn:hover {
-    padding: 13px 46px;
+    padding: 15px 46px;
     border-radius: 41px;
     border: 1px solid var(--white, #FFF);
     background-color: #ffffff !important;
